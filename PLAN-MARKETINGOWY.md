@@ -18,6 +18,8 @@ Punkt wyjścia: 2,5 tys. obserwujących na Instagramie, zapisy przez telefon i B
 | Kategoria główna: *Klinika medycyny estetycznej*, dodatkowe: *Gabinet kosmetyczny* / *Klinika chirurgii plastycznej* (jeśli pasuje) | jednorazowo |
 | Dodać 5–10 pytań i odpowiedzi (Q&A), np. „Czy jest parking?” | jednorazowo |
 
+📊 **Stan obecny: 60 opinii w Booksy, tylko 6 w Google.** Klientki są zadowolone i chętnie piszą opinie, tylko trafiają z nimi w miejsce, którego nie widzą osoby szukające gabinetu w Google. Najprostszy ruch: napisać do klientek, które zostawiły opinię w Booksy: „Dziękuję za piękną opinię! Czy mogłabyś wkleić ją też w Google? To dla mnie ogromna pomoc: [LINK]”. Nawet 20–30 osób, które się zgodzą, to kilkukrotnie więcej opinii w Google.
+
 🎯 Cel: **+8–10 opinii miesięcznie**. Gabinet, który ma 150 świeżych opinii, wyprzedza ten, który ma 40 opinii sprzed dwóch lat.
 
 Szablon SMS-a po zabiegu:
@@ -62,7 +64,7 @@ Później (opcjonalnie) możemy dołożyć osobne podstrony pod frazy, np. „Mo
 Reklama w medycynie estetycznej w Polsce ma ograniczenia:
 - Leków na receptę (np. toksyny botulinowej) **nie wolno reklamować** publicznie (Prawo farmaceutyczne). Dlatego strona mówi o „redukcji zmarszczek mimicznych”, a nie o nazwach preparatów.
 - Wyrobów medycznych do użytku profesjonalnego (np. wypełniaczy) też nie wolno reklamować laikom (ustawa o wyrobach medycznych z 2022 r.). Treści mają informować i edukować, a nie promować konkretny produkt.
-- Jeśli żona jest **lekarzem**, obowiązuje ją dodatkowo Kodeks Etyki Lekarskiej (zakaz reklamy, dozwolona informacja). Ostrożnie z promocjami i zdjęciami „przed i po”.
+- Ola nie jest lekarzem, więc nie dotyczy jej Kodeks Etyki Lekarskiej. Dwa zakazy powyżej obowiązują jednak każdego. Dlatego na stronie nie ma nazw handlowych preparatów (np. stymulatora), są tylko opisy zabiegów.
 
 To nie jest porada prawna. W razie wątpliwości warto skonsultować treści z prawnikiem od prawa medycznego.
 

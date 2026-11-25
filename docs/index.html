@@ -3,36 +3,36 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- ✏️ UZUPEŁNIJ: nazwa gabinetu w tytule i opisie (ważne dla Google!) -->
-<title>Medycyna estetyczna Kraków – Aleksandra Krajewska Studio | Naturalne efekty</title>
-<meta name="description" content="Gabinet medycyny estetycznej w Krakowie ([DZIELNICA]). Modelowanie ust, redukcja zmarszczek, mezoterapia, stymulatory tkankowe. Bezpłatny quiz – sprawdź, jaki zabieg jest dla Ciebie. Zapisy przez Booksy.">
+<title>Aleksandra Krajewska Studio – medycyna estetyczna i kosmetologia Kraków</title>
+<meta name="description" content="Medycyna estetyczna i kosmetologia w Krakowie, ul. Michała Żaka 19. Modelowanie ust, Dermapen, stymulatory tkankowe, wampirzy lifting (osocze, fibryna). Ratowniczka medyczna i mgr kosmetologii (CM UJ). Bezpłatna konsultacja online.">
 <meta property="og:title" content="Aleksandra Krajewska Studio – medycyna estetyczna Kraków">
-<meta property="og:description" content="Naturalne efekty, bez przesady. Sprawdź w 30 sekund, jaki zabieg jest dla Ciebie.">
+<meta property="og:description" content="Naturalne efekty, bez przerysowania. Sprawdź w 30 sekund, jaki zabieg jest dla Ciebie.">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pl_PL">
+<meta property="og:image" content="img/gabinet.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
-<!-- Dane strukturalne dla Google (pomagają pojawić się w wynikach lokalnych). ✏️ UZUPEŁNIJ -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "MedicalBusiness",
   "name": "Aleksandra Krajewska Studio",
-  "description": "Gabinet medycyny estetycznej w Krakowie",
-  "url": "https://[TWOJA-DOMENA].pl",
+  "description": "Medycyna estetyczna i kosmetologia w Krakowie",
+  "image": "img/gabinet.jpg",
   "telephone": "+48 533 292 100",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "[ulica i numer]",
+    "streetAddress": "ul. Michała Żaka 19/3U",
     "addressLocality": "Kraków",
-    "postalCode": "[kod]",
+    "postalCode": "30-612",
     "addressCountry": "PL"
   },
   "areaServed": "Kraków",
-  "sameAs": ["https://www.instagram.com/olakrajevska/", "https://booksy.com/pl-pl/dl/show-business/313287", "https://maps.app.goo.gl/e7NhJaSWvnFcoJe88"],
-  "openingHours": ["Mo-Fr 09:00-19:00", "Sa 09:00-14:00"]
+  "priceRange": "0–990 zł",
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "66" },
+  "sameAs": ["https://www.instagram.com/olakrajevska/", "https://booksy.com/pl-pl/dl/show-business/313287", "https://maps.app.goo.gl/e7NhJaSWvnFcoJe88"]
 }
 </script>
 
@@ -50,12 +50,12 @@ a{color:inherit}
 h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;line-height:1.15;margin:0 0 .5em}
 h1{font-size:clamp(2.3rem,6vw,4rem)}
 h2{font-size:clamp(1.9rem,4vw,2.8rem)}
-h3{font-size:1.45rem}
+h3{font-size:1.4rem}
 p{margin:0 0 1em}
 .wrap{max-width:1120px;margin:0 auto;padding:0 20px}
 section{padding:80px 0}
 .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.75rem;font-weight:600;color:var(--gold);margin-bottom:12px;display:block}
-.lead{font-size:1.12rem;color:var(--muted);max-width:620px}
+.lead{font-size:1.12rem;color:var(--muted);max-width:640px}
 .center{text-align:center}.center .lead{margin-left:auto;margin-right:auto}
 
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 26px;border-radius:999px;font-weight:600;text-decoration:none;border:1.5px solid var(--accent);cursor:pointer;font-size:1rem;transition:transform .15s,background .15s}
@@ -73,31 +73,41 @@ section{padding:80px 0}
 .nav-links a:hover{color:var(--ink)}
 .nav .btn{padding:10px 18px;font-size:.9rem}
 .nav-links a.btn-primary{color:var(--accent-ink)}
-@media (max-width:860px){.nav-links a:not(.btn){display:none}}
+@media (max-width:960px){.nav-links a:not(.btn){display:none}}
 @media (max-width:760px){.nav-links{display:none}.logo{font-size:1.3rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}}
 
 /* HERO */
 .hero{padding:70px 0 90px;background:radial-gradient(1200px 500px at 85% 10%,var(--accent-soft),transparent 60%)}
-.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center}
-.hero-photo{aspect-ratio:4/5;border-radius:220px 220px var(--radius) var(--radius);background:linear-gradient(160deg,#e9d6cf,#cfa9b4);box-shadow:var(--shadow);position:relative;overflow:hidden;display:flex;align-items:flex-end;justify-content:center;color:#fff;font-size:.85rem;padding:20px;text-align:center}
-.hero-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.trust{display:flex;flex-wrap:wrap;gap:22px;margin-top:30px;color:var(--muted);font-size:.9rem}
-.trust b{color:var(--ink);font-size:1.15rem;display:block}
-@media (max-width:860px){.hero .wrap{grid-template-columns:1fr}.hero{padding:40px 0 60px}.hero-photo{width:100%;max-width:420px;aspect-ratio:4/3;margin:0 auto;border-radius:var(--radius)}}
+.hero .wrap{display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center}
+.portrait{aspect-ratio:1;border-radius:50%;overflow:hidden;box-shadow:0 0 0 10px #fff,0 0 0 11px var(--line),var(--shadow);max-width:420px;width:100%;margin:0 auto}
+.portrait img{width:100%;height:100%;object-fit:cover;transform:scale(1.12)}
+.trust{display:flex;flex-wrap:wrap;gap:22px 30px;margin-top:30px;color:var(--muted);font-size:.9rem}
+.trust b{color:var(--ink);font-size:1.1rem;display:block}
+@media (max-width:860px){
+  .hero{padding:36px 0 60px}
+  .hero .wrap{grid-template-columns:1fr;gap:28px}
+  .portrait{max-width:190px;order:-1;margin:0}
+}
 
 /* OFFER STRIP */
-.strip{background:var(--accent);color:#fff;padding:18px 0;text-align:center;font-size:.98rem}
+.strip{background:var(--accent);color:#fff;padding:18px 20px;text-align:center;font-size:.98rem}
 .strip a{color:#fff;font-weight:600}
 
-/* CARDS */
-.grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:40px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow);display:flex;flex-direction:column}
-.card p{color:var(--muted);font-size:.95rem;flex:1}
-.price{font-weight:600;color:var(--accent);margin-top:6px}
+/* SERVICES */
+.cat{margin-top:46px}
+.cat h3{font-size:1.6rem;margin-bottom:4px}
+.cat > p{color:var(--muted);margin-bottom:0}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));margin-top:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:26px;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.card h4{font-size:1.05rem;margin:0 0 6px}
+.card p{color:var(--muted);font-size:.93rem;flex:1}
+.meta{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--line);padding-top:12px;margin-top:6px}
+.price{font-weight:600;color:var(--accent);font-size:1.1rem}
+.dur{color:var(--muted);font-size:.85rem}
 .tag{display:inline-block;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:3px 10px;font-size:.75rem;font-weight:600;margin-bottom:12px;align-self:flex-start}
 
 /* QUIZ */
-.quiz-sec{background:var(--bg-alt)}
+.alt{background:var(--bg-alt)}
 .quiz{max-width:720px;margin:40px auto 0;background:var(--card);border-radius:24px;padding:36px;box-shadow:var(--shadow);border:1px solid var(--line)}
 .progress{height:6px;background:var(--accent-soft);border-radius:9px;overflow:hidden;margin-bottom:26px}
 .progress span{display:block;height:100%;width:0;background:var(--accent);transition:width .3s}
@@ -105,24 +115,28 @@ section{padding:80px 0}
 .opts{display:grid;gap:10px}
 .opt{text-align:left;background:var(--bg);border:1.5px solid var(--line);border-radius:14px;padding:15px 18px;font:inherit;color:var(--ink);cursor:pointer;transition:border-color .15s,background .15s}
 .opt:hover,.opt:focus-visible{border-color:var(--accent);background:var(--accent-soft);outline:none}
-.result h3{color:var(--accent)}
+.result h3{color:var(--accent);margin-bottom:4px}
+.result .rprice{font-weight:600;margin-bottom:12px}
 .result ul{padding-left:20px;color:var(--muted)}
 .note{font-size:.82rem;color:var(--muted);margin-top:18px}
 .linkbtn{background:none;border:0;color:var(--muted);text-decoration:underline;cursor:pointer;font:inherit;font-size:.9rem;margin-top:14px;padding:0}
 
 /* ABOUT */
-.about .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px;align-items:center}
-.about-photo{aspect-ratio:1;border-radius:var(--radius);background:linear-gradient(140deg,#d9c0b5,#b98d9b);display:flex;align-items:flex-end;justify-content:center;color:#fff;padding:20px;font-size:.85rem;overflow:hidden;position:relative}
-.about-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.checks{list-style:none;padding:0;margin:20px 0}
-.checks li{padding-left:30px;position:relative;margin-bottom:10px}
-.checks li::before{content:"✓";position:absolute;left:0;color:var(--accent);font-weight:700}
-@media (max-width:860px){.about .wrap{grid-template-columns:1fr}}
+.about .wrap{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.about-photo{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.about-photo img{width:100%;height:auto}
+.about p{color:var(--muted)}
+.about blockquote{margin:22px 0;padding:4px 0 4px 20px;border-left:3px solid var(--gold);font-family:"Cormorant Garamond",serif;font-size:1.35rem;color:var(--ink);line-height:1.35}
+.values{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 24px;padding:0;list-style:none}
+.values li{background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:6px 14px;font-weight:600;font-size:.88rem}
+@media (max-width:860px){.about .wrap{grid-template-columns:1fr;gap:30px}}
 
 /* REVIEWS */
-.review{font-size:.97rem}
+.review{margin:0}
+.review p{color:var(--ink);font-size:.97rem}
 .stars{color:var(--gold);letter-spacing:2px;margin-bottom:8px}
-.review cite{font-style:normal;font-weight:600;color:var(--ink);font-size:.9rem;margin-top:10px;display:block}
+.review cite{font-style:normal;font-weight:600;color:var(--ink);font-size:.9rem;display:block}
+.review cite span{font-weight:400;color:var(--muted)}
 
 /* REFERRAL */
 .referral{background:linear-gradient(135deg,var(--accent),#5b2a3d);color:#fff;border-radius:28px;padding:50px;display:grid;grid-template-columns:1.3fr .7fr;gap:30px;align-items:center}
@@ -134,6 +148,7 @@ section{padding:80px 0}
 /* FAQ */
 details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 22px;margin-bottom:12px}
 summary{cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
 summary::after{content:"+";color:var(--accent);font-size:1.3rem;line-height:1}
 details[open] summary::after{content:"–"}
 details p{margin:12px 0 0;color:var(--muted)}
@@ -165,7 +180,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
   <div class="wrap">
     <a href="#" class="logo">Aleksandra Krajewska Studio</a>
     <div class="nav-links">
-      <a href="#zabiegi">Zabiegi</a>
+      <a href="#zabiegi">Zabiegi i ceny</a>
       <a href="#quiz">Dobierz zabieg</a>
       <a href="#o-mnie">O mnie</a>
       <a href="#opinie">Opinie</a>
@@ -178,54 +193,79 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 <header class="hero">
   <div class="wrap">
     <div>
-      <span class="eyebrow">Medycyna estetyczna · Kraków</span>
-      <h1>Wyglądaj jak Ty —<br><em>tylko bardziej wypoczęta.</em></h1>
-      <p class="lead">Naturalne efekty bez przesady. Każdy zabieg poprzedzam rozmową i dokładną konsultacją, żeby dobrać to, czego naprawdę potrzebujesz.</p>
+      <span class="eyebrow">Medycyna estetyczna · Kosmetologia · Kraków</span>
+      <h1>Wyglądaj jak Ty —<br><em>tylko promienniej.</em></h1>
+      <p class="lead">Naturalne, harmonijne efekty bez przerysowania. Jestem ratowniczką medyczną i magistrem kosmetologii, więc stawiam przede wszystkim na Twoje bezpieczeństwo.</p>
       <div class="btns">
         <a class="btn btn-primary" href="#quiz">Sprawdź, co dla Ciebie (30 s)</a>
-        <a class="btn btn-ghost js-booksy" href="#" target="_blank" rel="noopener">Zarezerwuj w Booksy</a>
+        <a class="btn btn-ghost js-booksy" href="#" target="_blank" rel="noopener">Wolne terminy w Booksy</a>
       </div>
-      <!-- ✏️ UZUPEŁNIJ prawdziwymi liczbami -->
       <div class="trust">
-        <div><b>★ 5,0</b>opinie w Google i Booksy</div>
-        <div><b>[X] lat</b>doświadczenia</div>
-        <div><b>[XXXX]+</b>zadowolonych klientek</div>
+        <div><b>★ 5,0</b>60+ opinii w Booksy</div>
+        <div><b>CM UJ</b>absolwentka Collegium Medicum</div>
+        <div><b>Ratownik medyczny</b>+ mgr kosmetologii</div>
       </div>
     </div>
-    <div class="hero-photo">
-      <!-- ✏️ Wstaw zdjęcie: <img src="img/hero.jpg" alt="..."> -->
-      Tu wstaw zdjęcie z gabinetu lub portret
+    <div class="portrait">
+      <img src="img/ola.jpg" alt="Aleksandra Krajewska – kosmetolog i ratowniczka medyczna, Kraków" width="842" height="842">
     </div>
   </div>
 </header>
 
 <div class="strip">
-  <!-- ✏️ Dopasuj ofertę powitalną -->
-  Pierwsza wizyta? <strong>Konsultacja przed zabiegiem – [GRATIS / −50%]</strong>. <a href="#quiz">Zacznij od quizu →</a>
+  Nie wiesz, od czego zacząć? <strong>Bezpłatna konsultacja online (15 min)</strong>. <a class="js-booksy" href="#" target="_blank" rel="noopener">Umów się →</a>
 </div>
 
 <section id="zabiegi">
   <div class="wrap">
-    <span class="eyebrow">Zabiegi</span>
+    <span class="eyebrow">Zabiegi i ceny</span>
     <h2>W czym mogę Ci pomóc</h2>
-    <p class="lead">Ceny orientacyjne – dokładny plan i koszt ustalamy na konsultacji.</p>
-    <!-- ✏️ Dopasuj listę zabiegów i ceny -->
-    <div class="grid">
-      <article class="card"><span class="tag">Najczęściej wybierany</span><h3>Modelowanie ust</h3><p>Subtelne podkreślenie konturu, nawilżenie i symetria – usta, które wyglądają naturalnie.</p><div class="price">od [___] zł</div></article>
-      <article class="card"><h3>Redukcja zmarszczek mimicznych</h3><p>Czoło, lwia zmarszczka, kurze łapki. Wygładzenie przy zachowaniu naturalnej mimiki.</p><div class="price">od [___] zł</div></article>
-      <article class="card"><h3>Modelowanie twarzy</h3><p>Policzki, linia żuchwy, broda. Przywrócenie objętości i zarysu owalu.</p><div class="price">od [___] zł</div></article>
-      <article class="card"><h3>Mezoterapia igłowa</h3><p>Nawilżenie, blask i poprawa jakości skóry twarzy, szyi, dekoltu lub skóry głowy.</p><div class="price">od [___] zł</div></article>
-      <article class="card"><h3>Stymulatory tkankowe</h3><p>Pobudzenie produkcji kolagenu – lepsze napięcie i gęstość skóry, efekt narasta w czasie.</p><div class="price">od [___] zł</div></article>
-      <article class="card"><h3>Okolica oczu</h3><p>Cienie i zmęczone spojrzenie. Rewitalizacja delikatnej skóry pod oczami.</p><div class="price">od [___] zł</div></article>
+    <p class="lead">Każdą terapię poprzedzam analizą anatomii twarzy i kondycji skóry. Nie pracuję schematami, tylko układam plan dopasowany do Ciebie.</p>
+
+    <div class="cat">
+      <h3>Konsultacje</h3>
+      <div class="grid">
+        <article class="card"><span class="tag">Na start</span><h4>Bezpłatna konsultacja online</h4><p>Krótka rozmowa, w której opowiesz, co chcesz poprawić, a ja podpowiem, od czego zacząć.</p><div class="meta"><span class="price">0 zł</span><span class="dur">15 min</span></div></article>
+        <article class="card"><h4>Konsultacja z Beauty Planem</h4><p>Dokładna analiza twarzy i skóry oraz indywidualny plan zabiegów i pielęgnacji na kolejne miesiące.</p><div class="meta"><span class="price">250 zł</span><span class="dur">45 min</span></div></article>
+      </div>
     </div>
+
+    <div class="cat">
+      <h3>Usta</h3>
+      <div class="grid">
+        <article class="card"><span class="tag">Najczęściej wybierany</span><h4>Modelowanie ust</h4><p>Kwas hialuronowy: subtelne podkreślenie konturu, symetria i nawilżenie. Usta, które wyglądają naturalnie.</p><div class="meta"><span class="price">899 zł</span><span class="dur">60 min</span></div></article>
+        <article class="card"><h4>Nawilżanie ust stymulatorem tkankowym</h4><p>Rewitalizacja: intensywne nawilżenie i odżywienie ust bez zmiany ich kształtu.</p><div class="meta"><span class="price">599 zł</span><span class="dur">40 min</span></div></article>
+      </div>
+    </div>
+
+    <div class="cat">
+      <h3>Skóra twarzy</h3>
+      <div class="grid">
+        <article class="card"><h4>Dermapen – mezoterapia mikroigłowa z ampułką</h4><p>Zabieg mikroigłowy, który pobudza naturalną regenerację skóry: jej gęstość, blask i wyrównanie kolorytu.</p><div class="meta"><span class="price">699 zł</span><span class="dur">45 min</span></div></article>
+        <article class="card"><h4>Dermapen + peeling chemiczny</h4><p>Połączenie mikronakłuć z kwasem, czyli regeneracja i przebudowa skóry: przebarwienia, pory, blizny potrądzikowe.</p><div class="meta"><span class="price">599 zł</span><span class="dur">30 min</span></div></article>
+        <article class="card"><h4>Stymulator tkankowy</h4><p>Zaawansowana biostymulacja: lepsze napięcie, jędrność i jakość skóry. Efekt narasta w kolejnych tygodniach.</p><div class="meta"><span class="price">990 zł</span><span class="dur">40 min</span></div></article>
+      </div>
+    </div>
+
+    <div class="cat">
+      <h3>Zabiegi autologiczne – wampirzy lifting</h3>
+      <p>Naturalna regeneracja z wykorzystaniem składników Twojej własnej krwi.</p>
+      <div class="grid">
+        <article class="card"><h4>Osocze bogatopłytkowe</h4><p>Odmłodzenie i rewitalizacja skóry twarzy, szyi lub dekoltu, bez obcych substancji.</p><div class="meta"><span class="price">749 zł</span><span class="dur">40 min</span></div></article>
+        <article class="card"><h4>Fibryna bogatopłytkowa</h4><p>Gęstsza forma osocza, świetna m.in. przy cieniach i zmęczonej skórze pod oczami.</p><div class="meta"><span class="price">749 zł</span><span class="dur">40 min</span></div></article>
+        <article class="card"><span class="tag">Najmocniejszy efekt</span><h4>Plasma Complex – fibryna + osocze</h4><p>Połączenie obu metod, czyli kompleksowa odbudowa skóry w jednym zabiegu.</p><div class="meta"><span class="price">899 zł</span><span class="dur">40 min</span></div></article>
+      </div>
+    </div>
+
+    <p class="center" style="margin-top:40px"><a class="btn btn-primary js-booksy" href="#" target="_blank" rel="noopener">Zobacz wolne terminy w Booksy</a></p>
   </div>
 </section>
 
-<section id="quiz" class="quiz-sec">
+<section id="quiz" class="alt">
   <div class="wrap center">
     <span class="eyebrow">Quiz · 4 pytania</span>
-    <h2>Nie wiesz, od czego zacząć?</h2>
-    <p class="lead">Odpowiedz na 4 krótkie pytania – podpowiem, jaki zabieg warto omówić na konsultacji.</p>
+    <h2>Nie wiesz, który zabieg wybrać?</h2>
+    <p class="lead">Odpowiedz na 4 krótkie pytania, a podpowiem, od czego warto zacząć.</p>
   </div>
   <div class="wrap">
     <div class="quiz" id="quizBox" aria-live="polite">
@@ -238,37 +278,31 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 <section id="o-mnie" class="about">
   <div class="wrap">
     <div class="about-photo">
-      <!-- ✏️ <img src="img/ja.jpg" alt="Aleksandra Krajewska – medycyna estetyczna Kraków"> -->
-      Tu Twoje zdjęcie
+      <img src="img/gabinet.jpg" alt="Gabinet Aleksandra Krajewska Studio w Krakowie" width="1290" height="716" loading="lazy">
     </div>
     <div>
       <span class="eyebrow">O mnie</span>
-      <!-- ✏️ UZUPEŁNIJ: prawdziwa historia sprzedaje najlepiej -->
       <h2>Cześć, jestem Ola</h2>
-      <p class="lead">Od [X] lat pomagam kobietom w Krakowie czuć się dobrze we własnej skórze. Wierzę, że najlepszy efekt to taki, którego nikt nie zauważy – zauważą tylko, że świetnie wyglądasz.</p>
-      <ul class="checks">
-        <li>[Wykształcenie / uprawnienia]</li>
-        <li>[Certyfikaty i szkolenia, np. z anatomii twarzy]</li>
-        <li>Wyłącznie certyfikowane preparaty – pokażę Ci opakowanie i numer serii</li>
-        <li>Kontrola po zabiegu i stały kontakt w razie pytań</li>
-      </ul>
+      <p>Łączę dwa światy: medycynę i kosmetologię estetyczną. Jestem <strong>ratownikiem medycznym i magistrem kosmetologii</strong>, a dyplomy obroniłam na <strong>Collegium Medicum Uniwersytetu Jagiellońskiego</strong>. To wykształcenie daje moim Klientkom coś bezcennego: bezpieczeństwo, świadomość i pełną odpowiedzialność za każdy zabieg.</p>
+      <p>Praca w szpitalu i w zespole ratownictwa medycznego nauczyła mnie precyzji, opanowania i ogromnej uważności na drugiego człowieka. Dziś wykorzystuję to w gabinecie i dbam nie tylko o efekt, ale przede wszystkim o Twoje zdrowie i komfort.</p>
+      <blockquote>Kocham subtelne efekty. Takie, po których słyszysz „Wyglądasz promiennie!”, a nie „Co zrobiłaś z twarzą?”.</blockquote>
+      <ul class="values"><li>Bezpieczeństwo</li><li>Naturalność</li><li>Estetyka na najwyższym poziomie</li></ul>
       <a class="btn btn-ghost js-insta" href="#" target="_blank" rel="noopener">Zobacz efekty na Instagramie →</a>
     </div>
   </div>
 </section>
 
-<section id="opinie" class="quiz-sec">
+<section id="opinie" class="alt">
   <div class="wrap center">
     <span class="eyebrow">Opinie</span>
-    <h2>Co mówią klientki</h2>
-    <p class="lead">Prawdziwe opinie z Google i Booksy.</p>
+    <h2>Co mówią Klientki</h2>
+    <p class="lead">★ 5,0 na Booksy (60+ opinii) i w Google.</p>
   </div>
   <div class="wrap">
-    <!-- ✏️ Wklej 3 najlepsze PRAWDZIWE opinie (za zgodą lub z publicznych profili) -->
     <div class="grid">
-      <blockquote class="card review"><div class="stars">★★★★★</div><p>[Treść opinii klientki z Google lub Booksy]</p><cite>— [Imię], Google</cite></blockquote>
-      <blockquote class="card review"><div class="stars">★★★★★</div><p>[Treść opinii klientki z Google lub Booksy]</p><cite>— [Imię], Booksy</cite></blockquote>
-      <blockquote class="card review"><div class="stars">★★★★★</div><p>[Treść opinii klientki z Google lub Booksy]</p><cite>— [Imię], Google</cite></blockquote>
+      <blockquote class="card review"><div class="stars">★★★★★</div><p>Ola jest specjalistką najwyższej klasy. Zabieg w pełni profesjonalnie przeprowadzony, ale jak zwykle, co dla mnie super ważne, w odpowiedniej atmosferze. Polecam i polecać będę miliony razy ❤️</p><cite>Magdalena <span>· Booksy, zabieg spersonalizowany</span></cite></blockquote>
+      <blockquote class="card review"><div class="stars">★★★★★</div><p>Robiłam tego dnia u Oli trzy różne zabiegi, nigdy nie wyszłam z salonu tak zadowolona 🤍 Wszystko w mega komfortowej atmosferze, w sterylnych warunkach i przede wszystkim w najlepszych rękach. Polecam!!!</p><cite>Zuzanna <span>· Booksy, Plasma Complex</span></cite></blockquote>
+      <blockquote class="card review"><div class="stars">★★★★★</div><p>Ola jest przesympatyczna, zna się na rzeczy i pięknie wymodelowała moje usta 🥹 Mogę ją z całego serca polecić.</p><cite>Sylwia <span>· Booksy, modelowanie ust</span></cite></blockquote>
     </div>
     <p class="center" style="margin-top:30px"><a class="btn btn-ghost js-review" href="#" target="_blank" rel="noopener">Byłaś u mnie? Zostaw opinię w Google ★</a></p>
   </div>
@@ -281,7 +315,7 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
         <span class="eyebrow" style="color:#f0cfa8">Program poleceń</span>
         <h2>Poleć mnie przyjaciółce – zyskacie obie</h2>
         <!-- ✏️ Dopasuj nagrodę -->
-        <p class="lead">Twoja przyjaciółka dostaje <strong>[−10%]</strong> na pierwszy zabieg, a Ty <strong>[−10% / mezoterapię gratis]</strong> na kolejną wizytę. Wystarczy, że przy zapisie poda Twoje imię.</p>
+        <p class="lead">Twoja przyjaciółka dostaje <strong>[−10%]</strong> na pierwszy zabieg, a Ty <strong>[−10%]</strong> na kolejną wizytę. Wystarczy, że przy zapisie poda Twoje imię.</p>
         <button class="btn" id="shareBtn" type="button">Wyślij zaproszenie przyjaciółce</button>
       </div>
       <div class="gift" aria-hidden="true">♡</div>
@@ -296,44 +330,44 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
       <h2>Najczęstsze pytania</h2>
     </div>
     <div style="margin-top:30px">
-      <details><summary>Czy efekt będzie naturalny?</summary><p>Tak – to moja główna zasada. Zaczynamy od mniejszej ilości preparatu, a po 2 tygodniach oceniamy efekt na wizycie kontrolnej.</p></details>
-      <details><summary>Czy zabieg boli?</summary><p>Większość zabiegów wykonuję ze znieczuleniem miejscowym (krem lub preparat ze znieczuleniem). Odczucia porównywane są zwykle do lekkiego uszczypnięcia.</p></details>
-      <details><summary>Jak długo utrzymuje się efekt?</summary><p>To zależy od zabiegu i organizmu – od kilku miesięcy do ponad roku. Dokładnie omawiamy to na konsultacji.</p></details>
-      <details><summary>Czy muszę przyjść najpierw na konsultację?</summary><p>Przy pierwszej wizycie zawsze zaczynamy od rozmowy i wywiadu medycznego. Często zabieg można wykonać tego samego dnia.</p></details>
-      <details><summary>Jak się przygotować do zabiegu?</summary><p>Na kilka dni przed zabiegiem warto unikać alkoholu i leków rozrzedzających krew (po konsultacji z lekarzem). Szczegółowe zalecenia wyślę po zapisie.</p></details>
-      <details><summary>Gdzie znajduje się gabinet?</summary><p>Kraków, [ADRES, DZIELNICA]. [Informacja o parkingu / dojeździe tramwajem].</p></details>
+      <details><summary>Od czego zacząć, jeśli to mój pierwszy raz?</summary><p>Najlepiej od bezpłatnej konsultacji online (15 min) albo od konsultacji z Beauty Planem w gabinecie. Porozmawiamy o Twoich oczekiwaniach i dobierzemy zabieg. Nic na siłę.</p></details>
+      <details><summary>Czy efekt będzie naturalny?</summary><p>Tak, to moja główna zasada. Stawiam na subtelne, harmonijne efekty i długofalowe rezultaty, a nie na przerysowanie.</p></details>
+      <details><summary>Jakie masz kwalifikacje?</summary><p>Jestem ratownikiem medycznym i magistrem kosmetologii, absolwentką Collegium Medicum Uniwersytetu Jagiellońskiego. Mam doświadczenie z pracy w szpitalu i zespole ratownictwa medycznego.</p></details>
+      <details><summary>Czy zabieg boli?</summary><p>Większość zabiegów wykonuję ze znieczuleniem miejscowym. Odczucia porównywane są zwykle do lekkiego szczypania.</p></details>
+      <details><summary>Czym jest wampirzy lifting?</summary><p>To zabieg autologiczny: z Twojej krwi pozyskuję osocze lub fibrynę bogatopłytkową i podaję je w skórę. Pobudza to naturalną regenerację, bez obcych substancji.</p></details>
+      <details><summary>Jak długo utrzymuje się efekt?</summary><p>To zależy od zabiegu i organizmu: od kilku miesięcy do ponad roku. Dokładnie omawiamy to na konsultacji.</p></details>
+      <details><summary>Gdzie jest gabinet i czy jest parking?</summary><p>ul. Michała Żaka 19/3U, 30-612 Kraków. Parking jest bezpośrednio przed lokalem.</p></details>
     </div>
   </div>
 </section>
 
-<section id="kontakt" class="contact quiz-sec">
+<section id="kontakt" class="contact alt">
   <div class="wrap">
     <div>
       <span class="eyebrow">Kontakt</span>
       <h2>Umów się na wizytę</h2>
-      <p class="lead">Najszybciej przez Booksy – widzisz wolne terminy od ręki. Wolisz porozmawiać? Zadzwoń lub napisz.</p>
+      <p class="lead">Najszybciej przez Booksy, gdzie widzisz wolne terminy od ręki. Wolisz porozmawiać? Zadzwoń lub napisz.</p>
       <div class="btns">
         <a class="btn btn-primary js-booksy" href="#" target="_blank" rel="noopener">Wolne terminy w Booksy</a>
         <a class="btn btn-ghost js-tel" href="#">Zadzwoń: 533 292 100</a>
         <a class="btn btn-ghost js-maps" href="#" target="_blank" rel="noopener">Jak dojechać</a>
       </div>
-      <!-- ✏️ UZUPEŁNIJ -->
       <dl class="info">
-        <dt>Adres</dt><dd>[ul. Przykładowa 1], Kraków ([dzielnica])</dd>
-        <dt>Godziny</dt><dd>pon.–pt. 9:00–19:00 · sob. 9:00–14:00</dd>
+        <dt>Adres</dt><dd>ul. Michała Żaka 19/3U, 30-612 Kraków</dd>
+        <dt>Parking</dt><dd>Bezpłatny, bezpośrednio przed lokalem</dd>
         <dt>Telefon</dt><dd><a class="js-tel" href="#">533 292 100</a></dd>
+        <dt>Instagram</dt><dd><a class="js-insta" href="#" target="_blank" rel="noopener">@olakrajevska</a></dd>
       </dl>
     </div>
     <div class="map">
-      <!-- ✏️ Google Maps → Udostępnij → Umieść mapę → wklej tu <iframe> -->
-      <iframe title="Mapa dojazdu" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Aleksandra+Krajewska+Studio+Krak%C3%B3w&output=embed"></iframe>
+      <iframe title="Mapa dojazdu – ul. Michała Żaka 19, Kraków" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Micha%C5%82a+%C5%BBaka+19,+30-612+Krak%C3%B3w&output=embed"></iframe>
     </div>
   </div>
 </section>
 
 <footer>
   <div class="wrap">
-    <span>© <span id="yr"></span> Aleksandra Krajewska Studio · Medycyna estetyczna Kraków</span>
+    <span>© <span id="yr"></span> Aleksandra Krajewska Studio · ul. Michała Żaka 19/3U, Kraków</span>
     <span><a class="js-insta" href="#" target="_blank" rel="noopener">Instagram</a> · <a class="js-booksy" href="#" target="_blank" rel="noopener">Booksy</a> · <a class="js-review" href="#" target="_blank" rel="noopener">Opinie Google</a></span>
   </div>
 </footer>
@@ -345,13 +379,13 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 
 <script>
 /* ===================================================================
-   ✏️ USTAWIENIA – uzupełnij tylko te 5 linijek, reszta podepnie się sama
+   ✏️ USTAWIENIA
    =================================================================== */
 const CONFIG = {
   name:      "Aleksandra Krajewska Studio",
-  phone:     "+48533292100",                        // bez spacji, z +48
-  booksy:    "https://booksy.com/pl-pl/dl/show-business/313287",            // link do Twojego profilu w Booksy
-  instagram: "https://www.instagram.com/olakrajevska/",           // link do Twojego Instagrama
+  phone:     "+48533292100",
+  booksy:    "https://booksy.com/pl-pl/dl/show-business/313287",
+  instagram: "https://www.instagram.com/olakrajevska/",
   googleReview: "https://maps.app.goo.gl/e7NhJaSWvnFcoJe88", // ✏️ podmień na link „Poproś o opinie” z Profilu Firmy w Google
   maps:      "https://maps.app.goo.gl/e7NhJaSWvnFcoJe88"
 };
@@ -361,13 +395,13 @@ const $$ = s => document.querySelectorAll(s);
 $$(".js-booksy").forEach(a => a.href = CONFIG.booksy);
 $$(".js-insta").forEach(a => a.href = CONFIG.instagram);
 $$(".js-review").forEach(a => a.href = CONFIG.googleReview);
-$$(".js-tel").forEach(a => a.href = "tel:" + CONFIG.phone);
 $$(".js-maps").forEach(a => a.href = CONFIG.maps);
+$$(".js-tel").forEach(a => a.href = "tel:" + CONFIG.phone);
 document.getElementById("yr").textContent = new Date().getFullYear();
 
-/* ---------- Udostępnianie (program poleceń) ---------- */
+/* ---------- Program poleceń ---------- */
 document.getElementById("shareBtn").addEventListener("click", async () => {
-  const text = `Polecam Ci ${CONFIG.name} – medycyna estetyczna w Krakowie. Podaj moje imię przy zapisie, to dostaniesz rabat na pierwszy zabieg 💕`;
+  const text = `Polecam Ci Olę – ${CONFIG.name}, medycyna estetyczna w Krakowie. Podaj moje imię przy zapisie, to dostaniesz rabat na pierwszy zabieg 💕`;
   const url = location.href.split("#")[0];
   if (navigator.share) { try { await navigator.share({ title: CONFIG.name, text, url }); } catch (e) {} }
   else { window.open("https://wa.me/?text=" + encodeURIComponent(text + " " + url), "_blank"); }
@@ -376,11 +410,11 @@ document.getElementById("shareBtn").addEventListener("click", async () => {
 /* ---------- QUIZ ---------- */
 const QUESTIONS = [
   { q: "Co chciałabyś poprawić najbardziej?", key: "area", opts: [
-    ["wrinkles", "Zmarszczki na czole, między brwiami lub przy oczach"],
-    ["lips",     "Usta – kształt, objętość, nawilżenie"],
-    ["contour",  "Owal twarzy, policzki, linia żuchwy"],
-    ["skin",     "Kondycję skóry – blask, nawilżenie, jędrność"],
+    ["lips",     "Usta – kształt, kontur, nawilżenie"],
+    ["skin",     "Kondycję skóry – blask, pory, przebarwienia"],
+    ["firm",     "Jędrność i napięcie skóry, pierwsze oznaki starzenia"],
     ["eyes",     "Cienie i zmęczone spojrzenie"],
+    ["wrinkles", "Zmarszczki mimiczne – czoło, lwia zmarszczka, kurze łapki"],
     ["unsure",   "Nie wiem – chcę po prostu wyglądać świeżej"] ]},
   { q: "Ile masz lat?", key: "age", opts: [
     ["u30", "Poniżej 30"], ["30", "30–39"], ["40", "40–49"], ["50", "50+"] ]},
@@ -392,14 +426,26 @@ const QUESTIONS = [
     ["long",    "Długotrwała poprawa jakości skóry"] ]}
 ];
 
-const RECS = {
-  wrinkles: { title: "Redukcja zmarszczek mimicznych", why: "wygładza czoło, lwią zmarszczkę i kurze łapki, zachowując naturalną mimikę." },
-  lips:     { title: "Modelowanie ust", why: "podkreśla kontur i nawilża – możemy zacząć od bardzo subtelnej korekty." },
-  contour:  { title: "Modelowanie twarzy", why: "przywraca objętość policzków i wyraźniejszy owal." },
-  skin:     { title: "Mezoterapia igłowa lub stymulatory tkankowe", why: "poprawiają nawilżenie, gęstość i napięcie skóry od środka." },
-  eyes:     { title: "Rewitalizacja okolicy oczu", why: "rozjaśnia cienie i odświeża spojrzenie." },
-  unsure:   { title: "Konsultacja + plan pielęgnacji", why: "razem ocenimy skórę i ułożymy plan krok po kroku – bez presji." }
-};
+function recommend(a) {
+  switch (a.area) {
+    case "lips":
+      return a.goal === "natural"
+        ? { title: "Nawilżanie ust stymulatorem tkankowym", price: "599 zł · 40 min", why: "intensywnie nawilża i odżywia usta bez zmiany ich kształtu – idealne na początek." }
+        : { title: "Modelowanie ust", price: "899 zł · 60 min", why: "subtelnie podkreśla kontur, poprawia symetrię i nawilża – efekt naturalny, bez przerysowania." };
+    case "skin":
+      return { title: "Dermapen – mezoterapia mikroigłowa", price: "od 599 zł · 30–45 min", why: "pobudza naturalną regenerację skóry: wyrównuje koloryt, zwęża pory i przywraca blask. Wersja z kwasem dodatkowo działa na przebarwienia." };
+    case "firm":
+      return (a.age === "40" || a.age === "50")
+        ? { title: "Stymulator tkankowy lub Plasma Complex", price: "899–990 zł · 40 min", why: "biostymulacja poprawia napięcie i gęstość skóry, a efekt narasta w kolejnych tygodniach." }
+        : { title: "Wampirzy lifting – osocze bogatopłytkowe", price: "749 zł · 40 min", why: "naturalnie pobudza regenerację skóry z użyciem Twojej własnej krwi – świetna profilaktyka." };
+    case "eyes":
+      return { title: "Fibryna bogatopłytkowa", price: "749 zł · 40 min", why: "rozjaśnia cienie i wzmacnia delikatną skórę pod oczami – w 100% naturalnie." };
+    case "wrinkles":
+      return { title: "Konsultacja z Beauty Planem", price: "250 zł · 45 min", why: "przy zmarszczkach mimicznych najważniejszy jest dobór metody do Twojej anatomii i mimiki – na konsultacji ułożymy plan krok po kroku." };
+    default:
+      return { title: "Bezpłatna konsultacja online", price: "0 zł · 15 min", why: "porozmawiamy o tym, co chcesz zmienić, a ja podpowiem, od czego zacząć – bez zobowiązań." };
+  }
+}
 
 let step = 0, answers = {};
 const body = document.getElementById("quizBody"), bar = document.getElementById("bar");
@@ -421,12 +467,12 @@ function label(key) {
 }
 
 function renderResult() {
-  const r = RECS[answers.area];
+  const r = recommend(answers);
   const extra = [];
-  if (answers.age === "40" || answers.age === "50") extra.push("Po 40. roku życia świetnie sprawdza się połączenie zabiegu z <b>stymulatorem tkankowym</b> – efekt jest pełniejszy i trwalszy.");
-  if (answers.exp === "no") extra.push("Pierwszy raz? Spokojnie – zaczniemy od <b>konsultacji</b>, odpowiem na każde pytanie i nic nie robimy na siłę.");
+  if (answers.exp === "no") extra.push("Pierwszy raz? Spokojnie – możesz zacząć od <b>bezpłatnej konsultacji online</b>. Odpowiem na każde pytanie, nic na siłę.");
+  if ((answers.age === "40" || answers.age === "50") && answers.area !== "firm") extra.push("Po 40. roku życia warto rozważyć połączenie zabiegu ze <b>stymulatorem tkankowym</b> lub <b>wampirzym liftingiem</b> – efekt jest pełniejszy i trwalszy.");
   if (answers.goal === "fast") extra.push("Masz ważne wydarzenie? Umów się <b>min. 2–3 tygodnie wcześniej</b>, żeby efekt w pełni się ustabilizował.");
-  if (answers.goal === "long") extra.push("Najlepsze długofalowe efekty daje <b>seria zabiegów</b> – ułożymy plan na kilka miesięcy.");
+  if (answers.goal === "long") extra.push("Najlepsze długofalowe efekty daje <b>seria zabiegów</b> – ułożymy plan w ramach Beauty Planu.");
   if (answers.goal === "natural") extra.push("Naturalny efekt to moja specjalność – zawsze zaczynamy ostrożnie.");
 
   const msg = `Dzień dobry! Zrobiłam quiz na stronie.\n• Chcę poprawić: ${label("area")}\n• Wiek: ${label("age")}\n• Wcześniejsze zabiegi: ${label("exp")}\n• Zależy mi na: ${label("goal")}\nPolecany zabieg: ${r.title}. Chciałabym umówić konsultację.`;
@@ -435,10 +481,11 @@ function renderResult() {
   body.innerHTML = `<div class="result">
     <span class="eyebrow">Twój wynik</span>
     <h3>${r.title}</h3>
+    <div class="rprice">${r.price}</div>
     <p>Ten zabieg ${r.why}</p>
     ${extra.length ? "<ul>" + extra.map(e => `<li>${e}</li>`).join("") + "</ul>" : ""}
     <div class="btns" style="margin-top:20px">
-      <a class="btn btn-primary" href="${CONFIG.booksy}" target="_blank" rel="noopener">Umów konsultację w Booksy</a>
+      <a class="btn btn-primary" href="${CONFIG.booksy}" target="_blank" rel="noopener">Umów się w Booksy</a>
       <a class="btn btn-ghost" href="https://wa.me/${tel}?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener">Wyślij wynik na WhatsApp</a>
       <a class="btn btn-ghost" href="sms:${CONFIG.phone}?&body=${encodeURIComponent(msg)}">Wyślij SMS</a>
     </div>
