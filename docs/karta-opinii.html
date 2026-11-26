@@ -44,7 +44,7 @@ button{margin-top:18px;padding:12px 22px;border-radius:999px;border:0;background
     </ol>
   </div>
   <label for="url">Link do opinii Google</label>
-  <input id="url" placeholder="https://g.page/r/XXXXXXXX/review">
+  <input id="url" placeholder="https://g.page/r/CXAGHwpZkHUbEBM/review">
   <label for="name">Nazwa gabinetu</label>
   <input id="name" placeholder="Aleksandra Krajewska Studio">
   <button id="print" type="button">Drukuj (8 kart na A4)</button>
@@ -56,7 +56,7 @@ button{margin-top:18px;padding:12px 22px;border-radius:999px;border:0;background
 <script>
 const urlIn = document.getElementById("url"), nameIn = document.getElementById("name"), sheet = document.getElementById("sheet");
 function draw(){
-  const url = urlIn.value.trim() || "https://maps.app.goo.gl/e7NhJaSWvnFcoJe88";
+  const url = urlIn.value.trim() || "https://g.page/r/CXAGHwpZkHUbEBM/review";
   const name = nameIn.value.trim() || "Aleksandra Krajewska Studio";
   let svg = "";
   try { const qr = qrcode(0, "M"); qr.addData(url); qr.make(); svg = qr.createSvgTag({ cellSize: 4, margin: 0, scalable: true }); } catch(e) { svg = "QR"; }

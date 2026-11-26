@@ -1,17 +1,26 @@
-# Strona gabinetu – jak uzupełnić i opublikować
+# Strona Aleksandra Krajewska Studio
 
 ## Pliki
-- `index.html`: strona gabinetu (z quizem „Dobierz zabieg” i programem poleceń)
-- `karta-opinii.html`: generator kart z kodem QR do opinii Google (do druku)
-- `js/qrcode.js`: biblioteka do generowania kodów QR (licencja MIT, nie ruszać)
+- `index.html`: strona gabinetu (zdjęcia są wbudowane w plik)
+- `karta-opinii.html`: karty z kodem QR do opinii Google (do druku)
+- `img/`: zdjęcia (oryginały, używane m.in. jako podgląd przy udostępnianiu linku)
+- `js/qrcode.js`: biblioteka do kodów QR (licencja MIT, nie ruszać)
 
-## Uzupełnianie (ok. 30 minut)
-1. Otwórz `index.html` i na samym dole znajdź blok `CONFIG`. Wpisz tam nazwę, telefon, link do Booksy, Instagrama i link do opinii Google.
-2. Wyszukaj w pliku wszystko, co jest w nawiasach kwadratowych `[ ... ]`, oraz komentarze `✏️ UZUPEŁNIJ` i podmień na prawdziwe dane (ceny, adres, „O mnie”, opinie).
-3. Zdjęcia wrzuć do folderu `img/` i odkomentuj linijki `<img ...>` w sekcjach hero i „O mnie”.
-4. Mapa: Google Maps → wyszukaj gabinet → Udostępnij → „Umieść mapę” → skopiuj `<iframe>` i podmień ten w sekcji Kontakt.
+## Publikacja na GitHub Pages (za darmo)
+1. Wejdź na https://github.com/tomaszkaim23-crypto/Walentynka i zaloguj się.
+2. Kliknij **Settings** (zakładka u góry repozytorium; na telefonie przewiń menu zakładek w prawo albo włącz w przeglądarce „Wersję na komputer”).
+3. W menu po lewej wybierz **Pages**.
+4. W sekcji „Build and deployment”:
+   - **Source:** *Deploy from a branch*
+   - **Branch:** wybierz `claude/affectionate-fermat-sm4bl3`, a obok folder **`/docs`**
+   - kliknij **Save**.
+5. Poczekaj 1–3 minuty i odśwież stronę ustawień. U góry pojawi się „Your site is live at…”.
 
-## Publikacja za darmo (GitHub Pages)
-Repozytorium → **Settings → Pages** → Source: *Deploy from a branch* → Branch: `main`, folder `/docs` → Save.
-Po około minucie strona działa pod adresem `https://<login>.github.io/<repo>/`.
-Własna domena (np. `nazwagabinetu.pl`, ok. 50 zł/rok) ustawia się w tym samym miejscu, w polu „Custom domain”.
+Adresy:
+- Strona: https://tomaszkaim23-crypto.github.io/Walentynka/
+- Karty z QR: https://tomaszkaim23-crypto.github.io/Walentynka/karta-opinii.html
+
+Każda nowa zmiana wypchnięta na tę gałąź automatycznie aktualizuje stronę po około minucie.
+
+## Własna domena (później)
+Kup domenę (np. `krajewskastudio.pl`, ok. 50 zł/rok, np. w OVH lub home.pl). Potem w **Settings → Pages → Custom domain** wpisz jej nazwę i ustaw rekordy DNS według instrukcji GitHuba.
